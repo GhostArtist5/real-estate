@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    padding: 40px 3%;
+    justify-content: space-between;
+}
+
+body {
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-list li {
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    color: gray;
+}
+
+.active {
+    background-color: black;
+    color: white; !important;
+    border-radius: 20px;
+}
+
+.start-btn {
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    height: max-content;
+}
